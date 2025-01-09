@@ -1,0 +1,6 @@
+[
+    { "name": "AAPL", "ticker": "AAPL", "quantity": 1, "buyPrice": 150.00 },
+    { "name": "GOOGL", "ticker": "GOOGL", "quantity": 1, "buyPrice": 2800.00 },
+    ...
+  ]
+  
