@@ -1,9 +1,6 @@
-public class stockrespiratory {
-    package com.example.stockportfolio.repository;
-
-import com.example.stockportfolio.model.Stock;
-import org.springframework.data.jpa.repository.JpaRepository;
-
+// StockRepository.java - Interface to handle CRUD operations with JPA
+@Repository
 public interface StockRepository extends JpaRepository<Stock, Long> {
+    List<Stock> findByUserId(Long userId);
 }
 
